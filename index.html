@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Widura</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/913d65fad2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Computer Technician</p>
+            <h1>Hi, I'm<span> Widura Ecsuci</span><br>from Indonesia</h1>
+        </div>
+    </div>
+</div>
+<!-----------About---------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/User.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>My name is Widura Ecsuci, I am a computer technician, 
+                I am able to repair PC/Laptop and increase PC/Laptop specifications
+                I also understand the field of internet networks, such as building, repairing, and so on</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Troubleshoot</span><br>Know and recognize various kinds of computer problems (troubleshooting), both minor and major damage.</li>
+                        <li><span>Networking</span><br>Understand the OSI Layer 7 computer network standardization, IP subnetting, Routing, </li>
+                        <li><span>PC & Laptop</span><br>Know and master various types of computer devices.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - Current</span><br>teaches Computer and Network Engineering at SMK PGRI Neglasari.</li>
+                        <li><span>2021 - 2022</span><br>As a video editor on the Telkom University campus Jakarta.</li>
+                        <li><span>2020 - 2021</span><br>Internship as a Network Engineer at PT. SUMBERSOLUSINDO HITECH.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2017 - 2020</span><br>SMK AL-Jumhuriah Kab. Tangerang</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------Services---------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-windows"></i>
+                <h2>Troubleshooting</h2>
+                <p>efforts to repair computer system failures or problems carried out logically and systematically. 
+                    This effort was made to ensure that the system can operate smoothly again.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-server"></i>
+                <h2>Network Engineer</h2>
+                <p>create network designs, Perform installation and configuration, Network monitoring</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-desktop"></i>
+                <h2>PC & Laptop</h2>
+                <p>provides Windows, Linux reinstallation services. providing computer assembly
+                     services or upgrading laptop specifications</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------portofolio------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/Work 3.jpeg">
+                <div class="layer">
+                    <h3>Troubleshoot & Update Software</h3>
+                    <p>perform system checks and identify problems, Software Scanning and Update, Error Warning, and 
+                        System Restore</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>  
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/Work 1.jpeg">
+                <div class="layer">
+                    <h3>Network Engineer</h3>
+                    <p>Able to create network designs, Perform installation and configuration, Network monitoring, Troubleshooting, and Documentation</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>  
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work 2.jpeg">
+                <div class="layer">
+                    <h3>Repair & upgrading Hardware</h3>
+                    <p>We can install and upgrade a variety of hardware, for example Processor, RAM, Hard Disk Drive, Graphic Card & Network Card </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>  
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-------------Contact------------------------->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>widuraecsuci123@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>0896-2961-6229</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/widura.ecsuci.1/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/EcsuciWidura"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/widura21/"><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href="image/CV Widura Ecsuci.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="created">
+        <p>Created by Widura Ecsuci December 1, 2023</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwmGgchdGwmKM5gNUHPbM93Oj8DL3SiK9Rj-V1_cU846hMsQb6LV7M_4xo7vezGj5ymjQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
